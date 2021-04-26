@@ -98,6 +98,9 @@ function draw() {
     //spawn obstacles on the ground
     spawnObstacles();
     
+    camera.position.x = displayWidth/2;
+    camera.position.y = displayHeight/2 -80;
+    
     if(obstaclesGroup.isTouching(trex)){
         gameState = END;
     }
