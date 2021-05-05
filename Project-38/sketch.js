@@ -83,7 +83,7 @@ function draw() {
     
     //jump when the space key is pressed
     if(mousePressedOver(trex) && trex.y >= windowHeight - 100) {
-        trex.velocityY = -15;
+        trex.velocityY = -17;
     }
     
     gameover.visible=false;
